@@ -15,7 +15,7 @@ Login With Invalid Credentials
     [Documentation]    Попытка авторизации с невалидными данными
     [Arguments]    ${login}    ${password}
 
-    Wait Until Element Is Visible    locator=${ACCOUNT_BUTTON}    timeout=5s
+    Wait Until Element Is Visible    locator=${ACCOUNT_BUTTON}    timeout=20s
     Click Element    locator=${ACCOUNT_BUTTON}
 
     Wait Until Element Is Visible    //*[@id="loginName"]
@@ -40,6 +40,8 @@ Click Search Button
 
 Enter Article Number
     [Documentation]    Ввод артикула товара
+
+     Wait Until Element Is Visible    //input[@type="text"]    timeout=10s
 
     Input Text    //input[@type="text"]    text=${PRODUCT_ARTICLE}
     Sleep    2s

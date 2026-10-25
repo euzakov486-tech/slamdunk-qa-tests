@@ -6,7 +6,7 @@ Documentation    Файл с переменными для тестов Slamdunk
 ${ACCOUNT_BUTTON}                  //a[@href="/auth/login" and @class="btn btn-outline-dark"]
 ${LOGO}                           //a[@class="logo-link"]
 ${SEARCH_BUTTON}                  //button[@class="btn btn-outline-dark"]
-${PRODUCT_ARTICLE}                ABTU001-1
+${PRODUCT_ARTICLE}                SX7669-100
 ${PRODUCT_CARD}                   //div[@class="product-card__body-wrapper"]
 ${NEXT_ARROW}                     //div[@class="swiper-button-next"]
 ${SIZE_7_BUTTON}                  //button[@class="btn btn-block btn-outline-dark mb-1 size-control"]
